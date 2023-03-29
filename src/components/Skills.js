@@ -8,6 +8,7 @@ import python from "../assets/skills/python.svg"
 import kotlin from "../assets/skills/kotlin.svg"
 import symfony from "../assets/skills/symfony.svg"
 import csharp from "../assets/skills/csharp.svg"
+import php from "../assets/skills/php.svg"
 
 
 import hr from "../assets/curve-hr.svg"
@@ -33,6 +34,9 @@ export default function Skills() {
                     <SkillCard name="javascript" experience="1 ans" img={javascript} />
                     <SkillCard name="kotlin" experience="1 ans" img={kotlin} />
                     <SkillCard name="Csharp" experience="1 ans" img={csharp} />
+
+                    <SkillCard name="php" experience="1 ans" img={php} />
+
                 </Slider>
             </div>
             <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />

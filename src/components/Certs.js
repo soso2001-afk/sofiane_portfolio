@@ -2,10 +2,11 @@ import CertCard from "./CertCard.js"
 
 import hr from "../assets/curve-hr.svg"
 
-import progateHtml from "../assets/certs/progate-htmlcss.png"
+import udemy from "../assets/certs/udemy.png"
 
 
 // import 
+
 
 export default function Certs() {
     return (
@@ -14,8 +15,8 @@ export default function Certs() {
 
 
             {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
-            <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
-                <CertCard name="Kursus HTML & CSS" img={progateHtml} issued="Progate" date="Oct 2020" />
+            <div className="grid grid-cols-1 md:grid-cols-1 justify-center mt-4 gap-5">
+                <CertCard name=" Apprendre Symfony 5" img={udemy} issued="UDEMY" date="mars 2023" />
 
             </div>
             <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />

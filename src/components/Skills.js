@@ -9,6 +9,11 @@ import kotlin from "../assets/skills/kotlin.svg"
 import symfony from "../assets/skills/symfony.svg"
 import csharp from "../assets/skills/csharp.svg"
 import php from "../assets/skills/php.svg"
+import mysql from "../assets/skills/mysql.svg"
+import wix from "../assets/skills/wix.svg"
+import wordpress from "../assets/skills/wordpress.svg"
+
+
 
 
 import hr from "../assets/curve-hr.svg"
@@ -34,8 +39,11 @@ export default function Skills() {
                     <SkillCard name="javascript" experience="1 ans" img={javascript} />
                     <SkillCard name="kotlin" experience="1 ans" img={kotlin} />
                     <SkillCard name="Csharp" experience="1 ans" img={csharp} />
-
                     <SkillCard name="php" experience="1 ans" img={php} />
+                    <SkillCard name="mysql" experience="1 ans" img={mysql} />
+                    <SkillCard name="wix" experience="1 ans" img={wix} />
+                    <SkillCard name="wordpress" experience="1 ans" img={wordpress} />
+
 
                 </Slider>
             </div>
